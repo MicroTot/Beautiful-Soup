@@ -4,7 +4,7 @@ import csv
 
 def scraped():
     scraps = []
-    url = "https://www.google.com/"
+    url = "https://www.google.com/"  #website url
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
     clean = soup.prettify()
