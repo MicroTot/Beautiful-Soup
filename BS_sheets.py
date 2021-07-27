@@ -1,7 +1,7 @@
-from bs4 import BeautifulSoup
 import requests
 import csv
-
+from bs4 import BeautifulSoup
+m
 def scraped():
     scraps = []
     url = "https://www.google.com/"  #website url
