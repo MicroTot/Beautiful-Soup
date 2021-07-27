@@ -18,10 +18,10 @@ def scraped():
         item4=r.find('h4').text
         # print(item1, item2, item3, item4)
         scrap={
-            'item1': item1,
-            'item2': item2,
-            'item3': item3,
-            'item4': item4,
+            item1: 'item1',
+            item2: 'item2',
+            item3: 'item3',
+            item4: 'item4',
         }
         scraps.append(scrap)
     header = ['ITEM1', 'ITEM2', 'ITEM3', 'ITEM4', 'ITEM5']
